@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.2"/>
+    <PackageReference Include="Flunt.Br" Version="1.1.1"/>
+  </ItemGroup>
+</Project>

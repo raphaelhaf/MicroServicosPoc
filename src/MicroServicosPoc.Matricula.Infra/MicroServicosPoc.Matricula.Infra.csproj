@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0"/>
+    <PackageReference Include="MySqlConnector" Version="0.42.1"/>
+    <PackageReference Include="Dapper" Version="1.50.5"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServicosPoc.Shared\MicroServicosPoc.Shared.csproj"/>
+    <ProjectReference Include="..\MicroServicosPoc.Matricula.Domain\MicroServicosPoc.Matricula.Domain.csproj"/>
+  </ItemGroup>
+</Project>
